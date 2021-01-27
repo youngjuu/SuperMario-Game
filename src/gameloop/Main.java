@@ -125,8 +125,8 @@ public class Main extends Canvas implements Runnable {
 		cam = new Cam();
 		startscreen = new StartScreen();
 		mouse = new Mouse();	
-		background = new ImageIcon("절대경로\\img\\startscreen.png");
-		gameoverscreen = new ImageIcon("절대경로\\img\\gameover.png");
+		background = new ImageIcon("C:\\Users\\최영주\\eclipse-workspace\\SuperMario\\img\\startscreen.png");
+		gameoverscreen = new ImageIcon("C:\\Users\\최영주\\eclipse-workspace\\SuperMario\\img\\gameover.png");
 		
 		addKeyListener(new Keyboard());
 		addMouseListener(mouse);
@@ -199,7 +199,7 @@ public class Main extends Canvas implements Runnable {
 			e.printStackTrace();
 		}
 		
-		themeSound = new Sound("/snd/maintheme.mp3");
+		themeSound = new Sound("/snd/maintheme.wav");
 		jumpSound_small = new Sound("/snd/smb_jump-small.wav");
 		jumpSound_big = new Sound("/snd/smb_jump-super.wav");
 		coinSound = new Sound("/snd/smb_coin.wav");
