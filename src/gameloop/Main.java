@@ -125,8 +125,8 @@ public class Main extends Canvas implements Runnable {
 		cam = new Cam();
 		startscreen = new StartScreen();
 		mouse = new Mouse();	
-		background = new ImageIcon("C:\\Users\\최영주\\eclipse-workspace\\SuperMario\\img\\startscreen.png");
-		gameoverscreen = new ImageIcon("C:\\Users\\최영주\\eclipse-workspace\\SuperMario\\img\\gameover.png");
+		background = new ImageIcon("절대경로\\img\\startscreen.png");
+		gameoverscreen = new ImageIcon("절대경로\\img\\gameover.png");
 		
 		addKeyListener(new Keyboard());
 		addMouseListener(mouse);
